@@ -18,7 +18,7 @@ Ensure you have the following installed:
 
 2. **Setup the Project:**
     ```
-    npm init (Initalize the project)
+    npm init (Initialize the project)
     npm install discord.js mysql2 node-cron dotenv (Download all required modules)
     run prompt command: node index.js
     ```
