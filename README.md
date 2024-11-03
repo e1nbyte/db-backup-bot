@@ -1,6 +1,6 @@
 # Discord Backup Bot
 
-This Discord bot allows you to create backups of MySQL databases and send them to a channel on your Discord Server.
+This Discord bot allows you to **create** backups of **MySQL** databases and send them to a channel on your Discord Server.
 
 ## Prerequisites
 
