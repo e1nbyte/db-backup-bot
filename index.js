@@ -86,9 +86,9 @@ async function createBackup(databaseName) {
             duration: ((Date.now() - duration) / 1000).toFixed(2)
         };
 
-    } catch (e) {
-        console.error(`Error creating backup for database \`${databaseName}\`:`, e);
-        throw e;
+    } catch (error) {
+        console.error(`Error creating backup for database ${databaseName}:`, error);
+        throw error;
     } finally {
         await connection.end();
     }
